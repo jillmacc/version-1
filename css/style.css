@@ -1,0 +1,130 @@
+
+body {
+    background: #f7f6eb;
+    color: #353535;
+    font-family: "Stack Sans Text";
+    font-weight: 300;
+}
+
+section, header {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+blockquote {
+     width: 80%;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+header h1, h2, blockquote {
+    font-family: "Stack Sans Text";
+}
+
+h1 {
+    font-size: 4.768rem;
+    line-height: 1;
+    color: #0052AE;
+    margin: 5rem 0 1rem 0;
+}
+
+h2 {
+    font-size: 3.062rem;
+    line-height: 0;
+}
+
+p{
+    line-height: 1.6;
+}
+
+.yellow {
+    background-color: #FFDD45;
+}
+
+blockquote{
+    padding: 1rem 0;
+    font-size: 1.312rem;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.5rem;
+}
+
+/*-- Adding responsive element to images --*/
+.gridimage {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+a {
+    color:#81204f;
+    text-decoration: none;
+    border-bottom: 2px dotted;
+    font-weight: 600;
+}
+
+a:hover {
+    color:#2d299e;
+    transition: all 0.3s ease-in-out ;
+}
+
+.responsivenav {
+    background: #FF61B3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gridimage {
+    display: grid;
+    column-gap: 10px;
+}
+
+#logo {
+   font-size: 2rem; 
+   color: #f7f7f7;
+   font-family: "Stacks Sans Text";
+   font-weight: 600;
+   padding-left: 35px;
+}
+
+nav {
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding-right: 70px;
+}
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+nav a {
+    border-bottom: none;
+    color: #f7f7f7;
+    padding: 10px;
+}
+nav a:hover {
+    color: #FFDD45;
+    transition: all 0.3s ease-in-out;
+}
+
+
+hr {
+    margin: 3rem 0 5rem 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+}
