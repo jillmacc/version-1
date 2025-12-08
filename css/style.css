@@ -1,6 +1,6 @@
 
 body {
-    background: #f7f6eb;
+    background: #f2efd3;
     color: #353535;
     font-family: "Stack Sans Text";
     font-weight: 300;
@@ -11,6 +11,15 @@ section, header {
     max-width: 800px;
     margin: auto;
     margin-bottom: 5rem;
+}
+
+footer {
+    align-content: space-around;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 5rem;
+    justify-content: space-between;
 }
 
 header h1, h2, blockquote {
@@ -56,14 +65,14 @@ blockquote{
 }
 
 a {
-    color:#81204f;
+    color: #FF61B3;
     text-decoration: none;
     border-bottom: 2px dotted;
     font-weight: 600;
 }
 
 a:hover {
-    color:#2d299e;
+    color: #FFDD45;
     transition: all 0.3s ease-in-out ;
 }
 
@@ -110,7 +119,7 @@ nav a {
     padding: 10px;
 }
 nav a:hover {
-    color: #FFDD45;
+    color: #ff0000;
     transition: all 0.3s ease-in-out;
 }
 
