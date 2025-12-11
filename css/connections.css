@@ -1,7 +1,8 @@
 
 .connections{
-    position: relative;
-    margin: 0 auto;
+    position:relative;
+    margin: 3rem 16rem;
+    align-content: center;
   }
   .connections ul{
     margin: 0;
